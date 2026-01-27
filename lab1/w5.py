@@ -41,3 +41,16 @@ myfunc()
 
 print("Python is " + x)
 
+#5
+
+a = 5
+
+def add():
+    global a
+    a = a + 1
+    print(a)
+
+add()
+print(a)
+
+
