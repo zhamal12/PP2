@@ -27,3 +27,14 @@ z = str(3.0)
 print(x)
 print(y)
 print(z)
+
+#4
+price = 200
+text = "Price: "
+print(text,price)
+
+#5
+x = "3.5"
+y = float(x)
+print(y)
+
