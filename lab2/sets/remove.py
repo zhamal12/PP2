@@ -1,0 +1,28 @@
+#1
+thisset = {"apple", "banana", "cherry"}
+thisset.remove("banana")
+print(thisset)
+
+#2
+thisset = {"apple", "banana", "cherry"}
+thisset.discard()
+
+print(thisset)
+
+#3
+thisset = {"apple", "banana", "cherry"}
+thisset.pop()
+print(thisset)
+
+#4
+thisset = {"apple", "banana", "cherry"}
+thisset.clear()
+print(thisset)
+
+
+#5
+thisset = {"apple", "banana", "cherry"}
+
+del thisset
+
+print(thisset)
